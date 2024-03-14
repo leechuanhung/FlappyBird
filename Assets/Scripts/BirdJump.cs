@@ -19,5 +19,9 @@ public class BirdJump : MonoBehaviour
         {
             rb.velocity = Vector2.up * JumpPower;
         }
+       if (Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.velocity = Vector2.up * JumpPower;
+        }
     }
 }

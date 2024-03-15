@@ -9,7 +9,7 @@ public class MakePipe : MonoBehaviour
 
     void Start()
     {
-
+        timer = TimeDiff;
     }
 
     void Update()
